@@ -1,0 +1,11 @@
+﻿<Window x:Class="KinectNinja.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kinect Ninja" Height="639" Width="1136">
+    <Grid>
+        <Image x:Name="CameraImage" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="UniformToFill"/>
+        <Image x:Name="DrawingImage" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="UniformToFill" />
+        <Label Content="Score:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label x:Name="ScoreLabel" Content="0" HorizontalAlignment="Left" Margin="89,10,0,0" VerticalAlignment="Top" FontSize="24"/>
+    </Grid>
+</Window>
